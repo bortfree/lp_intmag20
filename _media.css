@@ -1,0 +1,345 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.title span{
+		font-size: 63px;
+	}
+	.sect_1{
+		height: 447px;
+	}
+	.descr_title span{
+		font-size: 44px;
+	}
+	.descr_title{
+		font-size: 25px;
+	}
+	.sect1_bottom{
+		bottom: 90px;
+	}
+	.title_sect2{
+		font-size: 30px;
+		line-height: 38px;
+		padding-top: 53px;
+	}
+	.title_sect2 span{
+		font-size: 36px;
+	}
+	.subtitle_sect2{
+		font-size: 23px;
+		margin-top: 25px;
+	}
+	.sect5_inner{
+		float: none;
+	}
+	.sect_17 .title_sect2{
+		width: 80%;
+	}
+	.sect_17 .title_sect2 img{
+		width: 155px;
+	}
+	.sect_17 .title_sect2 p{
+		font-size: 15px;
+		line-height: 1.1;
+		display: block;
+		position: relative;
+		top: -20px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.but_call{
+		font-size: 14px;
+	}
+	.sect_1{
+		height: 374px;
+	}
+	.title span{
+		font-size: 47px;
+	}
+	.descr_title span{
+		font-size: 35px;
+	}
+	.descr_title{
+		font-size: 20px;
+	}
+	.sect1_bottom{
+		bottom: 182px;
+	}
+	.sect_1{
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.skobka_left, .skobka_right{
+		display: none;
+	}
+	.inner_sect2{
+		line-height: 23px;
+		padding: 0;
+	}
+	.sect_6 .minus_pad{
+		margin: 0;
+		width: 100%;
+	}
+	.sect_13 img{
+		margin: 0;
+	}
+	.marsel_name{
+		position: relative;
+		left: -130px;
+	}
+	.sect_15{
+		display: none;
+	}
+	.sect_17 .title_sect2{
+		width: 100%;
+	}
+	.sect_21{
+		height: 846px;
+	}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.title span{
+		font-size: 38px;
+		display: inline-block;
+	}
+	.descr_title{
+		font-size: 17px;
+	}
+	.descr_title span{
+		font-size: 29px;
+
+	}
+	.spisok span{
+		font-size: 25px;
+	}
+	.sect_4 img.imac{
+		width: 100%;
+	}
+	.sect_3{
+		padding: 15px;
+	}
+	h2{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.wrap_sect4{
+		padding-top: 20px;
+	}
+	.sect5_descr{
+		text-align: center;
+	}
+	a.green{
+		padding: 10px 70px;
+	}
+	.left, .right{
+		float: none;
+		margin: 0;
+	}
+	.wrp_video{
+		width: 100%;
+	}
+	.wrap_icon_sec12{
+		margin-bottom: 25px;
+	}
+	.wrap_descr_sec12{
+		width: 100%;
+		margin: 0;
+	}
+	.marsel_name{
+		background: none;
+		margin: 0;
+		width: 100%;
+		left: 0;
+	}
+	#timer, #timer1{
+		width: 100%;
+	}
+	.end_descr{
+		padding: 25px 0px;
+	}
+	.sect_21 p{
+		font-size: 18px;
+	}
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.banner--clone .but_call{
+		font-size: 14px;
+		padding: 8px 17px;
+	}
+	
+	h1{
+		margin: 0;
+	}
+	.title span{
+		font-size: 33px;
+		padding: 4px 0px;
+		display: inline-block;
+		line-height: 28px;
+	}
+	.logo{
+		margin: 15px 0 0;
+	}
+	.but_call{
+		margin: 28px 0px 32px;
+		padding: 15px 39px;
+	}
+	.descr_title{
+		margin-top: 0;
+		line-height: 17px;
+	}
+	.descr_title span{
+		line-height: 24px;
+	}
+	a.green{
+		font-size: 24px;
+		padding: 10px 39px;
+		display: inline-block;
+	}
+	.sect1_bottom a.politic{
+		font-size: 12px;
+	}
+	.spisok img{
+		padding: 0;
+	}
+	.spisok span{
+		font-size: 18px;
+	}
+	.subtitle_sect2{
+		font-size: 22px;
+		padding: 0;
+	}
+	.sect2{
+		padding: 0;
+	}
+	.title_sect2{
+		padding: 10px;
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.title_sect2 span{
+		font-size: 33px;
+	}
+
+	.container_sect5{
+		padding: 0;
+	}
+	.sect_5 h2 > span{
+		font-size: 30px;
+	}
+	.sect_5 span.second{
+		line-height: 30px;
+		font-size: 30px;
+	}
+	.sect_8 img.icon{
+		margin: 0;
+	}
+	.sect_9{
+		height: 690px;
+	}
+	.sect_9 span, .sect_10 span, .sect_11 span, .sect_12 span, .sect_13 span, .sect_15 span, .sect_17 span, .sect_18 span, .sect_19 span{
+		line-height: 30px;
+		font-size: 28px;
+	}
+	.sect_9 .title_red{
+		font-size: 33px;
+		padding: 0;
+	}
+	.sect_10 h2 span{
+		font-size: 30px;
+	}
+	.sect_10 span{
+		font-size: 18px;
+	}
+	.wrap_sect11 img{
+		width: 290px;
+	}
+	.sect_11 iframe{
+		width: 280px;
+	}
+	.sect_11 .wrp_video span{
+		font-size: 14px;
+	}
+	.sect_12 .wrap_icon_sec12 span, .sect_12 .wrap_descr_sec12 span{
+		font-size: 18px;
+	}
+	.sect_13 img{
+		margin-bottom: 30px;
+	}
+	.descr_inner_sect13{
+		width: 100%;
+	}
+	.sect_16{
+		display: none;
+	}
+	#timer, #timer1{
+		display: none;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

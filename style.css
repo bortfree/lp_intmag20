@@ -1,0 +1,77 @@
+/*Тело счётчика*/
+#timer, #timer1 {
+	width:765px;
+	height:255px;
+	background-color: none;
+	border-radius: 3px;
+	margin: 100px auto;
+	border:2px solid #ffa25e;
+}
+#timer p.title_count, #timer1 p.title_count{
+	font-family: "bebasneuebold", sans-serif;
+	font-size: 66px;
+	text-transform:uppercase;
+	color:#f26600;
+	line-height: 1;
+	padding: 0;
+
+}
+#timer p.days_ref, #timer p.hours_ref, #timer p.minutes_ref, #timer p.seconds_ref, #timer1 p.days_ref, #timer1 p.hours_ref, #timer1 p.minutes_ref, #timer1 p.seconds_ref{
+	font-family: "opensansregular", sans-serif;
+	font-size: 20px;
+	text-transform:none;
+	color:#324b66;
+}
+/*Элементы счётчика, день/час/минута/секунда*/
+.countdown{
+	color:#324b66;
+	display:block;
+	margin:0 auto;
+	width:550px;
+}
+.countdown li{background:url(time.png) no-repeat scroll center 0 transparent;display: inline-block;float:left;width:105px;clear:none;font-family:roboto_condensedlight,Arial,san-serif;font-size:14px;padding-top:14px;padding-bottom:23px;margin-right:8px;margin-bottom:0;}
+.countdown li span{
+	display:block;
+	font-family: "pfdintextcondproregular", sans-serif;
+	font-size: 93px;
+	color: #324B66;
+	margin-bottom:0;
+	line-height: 1;
+	border:1px solid #9fd6f6;
+}
+/*Отступы для дня*/
+.days_ref,p {
+	margin-top: 15px;
+	padding-left: 34px;
+}
+.days,p {
+	margin:0;
+	padding-left: 12px;
+}
+/*Отступы для часа*/
+.hours,p {
+	margin:0;
+	padding-left: 8px;
+}
+.hours_ref,p {
+	margin-top: 15px;
+	padding-left: 23px;
+}
+/*Отступы для минуты*/
+.minutes,p {
+	margin:0;
+	padding-left: 12px;
+}
+.minutes_ref,p {
+	margin-top: 15px;
+	padding-left: 20px;
+}
+/*Отступы для секунды*/
+.seconds,p {
+	margin:0;
+	padding-left: 12px;
+}
+.seconds_ref,p {
+	margin-top: 15px;
+	padding-left: 20px;
+}
